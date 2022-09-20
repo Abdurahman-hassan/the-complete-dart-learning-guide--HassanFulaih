@@ -3,6 +3,7 @@ main() {
   var x = 4, y = true, z = "hello", j;
   // the value of j is null
   // we can write j = null or leave it without initialization
+  print("$x  $y  $z  $j");
 
   var sum = x + 4;
   print(sum);
@@ -30,6 +31,9 @@ main() {
     "programming-language": "dart",
     "learning": "true"
   };
-  
+
+  print(
+      '''listWithDefiningType:$listWithDefiningType\ndictWithDefiningType: $dictWithDefiningType''');
+
   // in the above case we can't add a different data type
 }
