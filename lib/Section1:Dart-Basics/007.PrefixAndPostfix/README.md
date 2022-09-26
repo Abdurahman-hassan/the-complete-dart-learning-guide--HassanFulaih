@@ -1,6 +1,6 @@
 # 007.PrefixAndPostfix
 
-## The out put will be:
+## The output will be:
 
 - 1
 - 2
