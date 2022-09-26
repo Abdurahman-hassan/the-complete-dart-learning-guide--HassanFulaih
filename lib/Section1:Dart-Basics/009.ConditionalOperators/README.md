@@ -1,7 +1,9 @@
-# 008.If-Statements
+# 009.ConditionalOperators
 
 ## The output will be:
 
-- -2 is not bigger than 5
-- -2 is a Negative number
-- x is a smaller than -1
+- 2 is smaller
+- 2 is smaller
+- smaller number is 2
+- Abdelrahman
+- variable name is null
