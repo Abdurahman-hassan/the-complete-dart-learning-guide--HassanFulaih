@@ -1,6 +1,7 @@
 # 001.Functions
 
-```main() {
+```
+main() {
 info();
 print(sum(1, 3));
 fun1();
