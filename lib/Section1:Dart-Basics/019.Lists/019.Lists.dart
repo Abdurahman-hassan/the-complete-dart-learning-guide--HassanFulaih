@@ -2,6 +2,8 @@ import 'dart:io';
 
 main() {
   var list1 = [4, 5, 6, 7, 8, 9];
+  // we can also define list as List
+  //  List list1 = [4, 5, 6, 7, 8, 9];
   print(list1);
   print(list1[0]);
   print(list1[3]);
@@ -49,7 +51,10 @@ main() {
   list1.replaceRange(0, 5, [1, 2, 3, 4, 5]);
   print(list1);
 
-  var listl = [4, 5, 6, 7, 8, 9];
+  print(list1.indexOf(3));
+  print(list1.indexOf(2));
+
+  List listl = [4, 5, 6, 7, 8, 9];
 
   for (var i = 0; i < listl.length; i++) {
     // to print in the same line
@@ -65,4 +70,5 @@ main() {
   listl.forEach((element) {
     stdout.write(element);
   });
+
 }
