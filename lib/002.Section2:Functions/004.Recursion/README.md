@@ -1,36 +1,21 @@
-# 003.Passing-array-through-function
+# 004.Recursion.dart
 
 ```
-import 'dart:io';
-
-void main(){
-var list1 = [1,2,3,"Abdelrahman","Hassan"];
-List<int> list2 = [1,2,3,4,5];
-
-printItemsInList(list1);
-printItemsInList(list2.reversed);
-printItemsInList2([1,3,4,5]);
-
+main() {
+  // 3+2+1+0
+  var x = fun(3);
+  print(x);
 }
 
-printItemsInList(var list){
-  for ( var i in list){
-    stdout.write("i: $i \t");
+fun(n) {
+  if (n != 0) {
+    return n + fun(n - 1);
+  } else {
+    return 0;
   }
-  print('');
 }
-
-printItemsInList2(List<int> list){
-  for ( var i in list){
-    stdout.write("i: $i \t");
-  }
-  print('');
-}
-
 ```
 
 ## The output is:
 
-* i: 1 	i: 2 	i: 3 	i: Abdelrahman 	i: Hassan 	
-* i: 5 	i: 4 	i: 3 	i: 2 	i: 1 	
-* i: 1 	i: 3 	i: 4 	i: 5 	
+* 6
