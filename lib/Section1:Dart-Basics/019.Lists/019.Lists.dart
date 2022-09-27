@@ -1,3 +1,5 @@
+import 'dart:io';
+
 main() {
   var list1 = [4, 5, 6, 7, 8, 9];
   print(list1);
@@ -19,7 +21,6 @@ main() {
   list1.addAll([3, 7, 8]);
   print(list1);
   // add [3, 7, 8] after the last index
-
 
   // insert the 8 in the first index
   list1.insert(0, 8);
@@ -45,7 +46,23 @@ main() {
   // remove the range indexes from 0 to 5
   print(list1);
 
-  list1.replaceRange(0, 5, [1,2,3,4,5]);
+  list1.replaceRange(0, 5, [1, 2, 3, 4, 5]);
   print(list1);
 
+  var listl = [4, 5, 6, 7, 8, 9];
+
+  for (var i = 0; i < listl.length; i++) {
+    // to print in the same line
+    stdout.write(listl[i]);
+  }
+  print('');
+
+  for (var i in listl) {
+    stdout.write(i);
+  }
+  print('');
+
+  listl.forEach((element) {
+    stdout.write(element);
+  });
 }
