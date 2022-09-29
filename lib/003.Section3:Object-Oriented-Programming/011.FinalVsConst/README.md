@@ -8,7 +8,7 @@ main() {
   a1 = "Ab2";
   a2 = "Ab3";
 
-  // we can re-assign a value on it and it must be initialized
+  // we can't re-assign a value on it and it must be initialized
   const double PI = 3.14;
 
   // we can re-assign a value on it if it not initialized
