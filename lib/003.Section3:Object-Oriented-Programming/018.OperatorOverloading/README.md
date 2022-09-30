@@ -1,8 +1,6 @@
 # 018.OperatorOverloading
 
 ```
-import 'package:untitled2/003.Section3:Object-Oriented-Programming/005.Inheritance&Override/005.Inheritance&Override.dart';
-
 main() {
   // var c1 = C1();
   // c1.get();
